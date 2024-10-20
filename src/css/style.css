@@ -4,7 +4,7 @@
 --slate-300: hsl(212, 45%, 89%);
 --slate-500: hsl(216, 15%, 48%);
 --slate-900: hsl(218, 44%, 22%);
-}
+} /*? https://www.w3schools.com/cssref/sel_root.php SOBRE :ROOT*/
 
 body {
     display: flex;
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: "Outfit", sans-serif;
-    background-color: var(--slate-300);
+    background-color: var(--slate-300); /*? https://www.w3schools.com/css/css3_variables.asp  SOBRE VAR()*/
     
     position: relative;
 }
@@ -26,7 +26,7 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: clamp(300px, 90%, 320px);
+    width: clamp(300px, 90%, 320px); /*? https://developer.mozilla.org/en-US/docs/Web/CSS/clamp  SOBRE CLAMP()*/
     height: 504px;
     padding: 1rem;
     gap: 1.25rem 0;
